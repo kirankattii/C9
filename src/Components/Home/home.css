@@ -566,7 +566,159 @@
   background: rgb(239, 69, 35, 0.6);
 }
 
+
+/* ======================= */
+
 .home-testimonials {
   width: 100%;
   height: 100vh;
+  padding: 0 50px;
+  padding-top: 70px;
+  background: #1E1E1E;
+  color: #fff;
+  position: relative;
+}
+
+.home-testimonials-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.home-testimonials-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.8;
+}
+
+.home-testimonials-text div {
+  display: flex;
+  gap: 10px;
+}
+
+.text-custjourny {
+  font-size: 120px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  font-family: 'AmazDooMRight2';
+}
+
+.text-insights {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 05px;
+  font-family: 'AmazDooMRight2';
+}
+
+.text-freedback {
+  font-size: 120px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  font-family: 'AmazDooMRight2';
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+
+.home-testimonial-exp1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home-testimonial-exp1-img {
+  border: 1px solid #EF4523;
+  position: relative;
+}
+
+.home-testimonial-exp1-img img {
+  width: 200px;
+
+
+}
+
+.home-testimonial-exp1-content {
+  background: #EF4523;
+  width: 60%;
+  display: flex;
+  align-items: end;
+  padding: 30px;
+  /* height: 25px; */
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-testimonial-exp1-content p {
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+
+.home-testimonal-btn {
+  position: absolute;
+  right: 80px;
+  bottom: 80px;
+  background: #fff;
+  color: #EF4523;
+  padding: 15px 30px;
+  letter-spacing: 1.4px;
+  cursor: pointer;
+}
+
+
+/* ============== */
+
+.home-contact {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.home-contact-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-contact-content h3 {
+
+  font-size: 26px;
+}
+
+.home-contact-content p {
+
+  font-size: 26px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+form div {
+  display: flex;
+  gap: 15px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 6px 10px;
+  border: 2px solid #EF4523;
+  outline: 0;
+
+}
+
+form button {
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  font-size: 18px;
+  background: #EF4523;
+  color: #fff;
+  cursor: pointer;
 }

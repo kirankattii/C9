@@ -212,24 +212,23 @@ const Home = () => {
 					<button className="home-featured-btn">FEATURED</button>
 				</div>
 			</div>
-
 			<div className="home-testimonials">
 				<div className="home-testimonials-container">
 					<div className="home-testimonials-text">
-						<h1>Delving into customer journeys</h1>
+						<h1 className="text-custjourny">Delving into customer journeys</h1>
 						<div>
-							<h2>insights through invaluable</h2>
-							<h2>feedback</h2>
+							<h2 className="text-insights">insights through invaluable</h2>
+							<h2 className="text-freedback">feedback</h2>
 						</div>
 					</div>
 					<div className="home-testimonial-exp1">
-						<div>
+						<div className="home-testimonial-exp1-img">
 							<img
-								src=""
+								src={assets.user1}
 								alt=""
 							/>
 						</div>
-						<div>
+						<div className="home-testimonial-exp1-content">
 							<p>
 								Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
 								eu turpis molestie, dictum est a, mattis tellus. Sed dignissim,
@@ -242,7 +241,46 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-				<h2>TESTIMONALS</h2>
+				<h2 className="home-testimonal-btn">TESTIMONALS</h2>
+			</div>
+			<div className="home-contact">
+				<div className="home-contact-content">
+					<div>
+						<h3>Do you have any inquiries ?</h3>
+						<p>Please feel free to forward them to us.</p>
+					</div>
+					<div className="home-contact-inputs">
+						<form action="">
+							<div>
+								<input
+									type="text"
+									placeholder="First Name"
+								/>{" "}
+								<input
+									type="text"
+									placeholder="Last Name"
+								/>
+							</div>
+							<div>
+								<input
+									type="email"
+									placeholder="Email Address"
+								/>{" "}
+								<input
+									type="number"
+									placeholder="Contact no"
+								/>
+							</div>
+							<textarea
+								id=""
+								rows="04"
+							>
+								Your Meassage
+							</textarea>
+							<button>Submit</button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	)

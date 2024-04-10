@@ -9,6 +9,9 @@ import homefeatures1 from "./homefeatures1.png"
 import homefeatures2 from "./homefeatures2.png"
 import homefeatures3 from "./homefeatures3.png"
 import homefeatures4 from "./homefeatures4.png"
+import user1 from "./user1.png"
+import tele_logo from "./Telephone logo.png"
+import email_logo from "./Email logo.png"
 
 export const assets = {
 	c9logo,
@@ -22,4 +25,7 @@ export const assets = {
 	homefeatures2,
 	homefeatures3,
 	homefeatures4,
+	user1,
+	tele_logo,
+	email_logo,
 }
